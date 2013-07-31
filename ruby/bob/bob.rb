@@ -9,8 +9,6 @@ class Bob
       "Sure."
     elsif has_exclamation?(message) || numbers?(message) || all_caps?(message)
       "Woah, chill out!"
-    #else
-    #  "Whatever."
     end
   end
 
