@@ -31,6 +31,6 @@ class Bob
     end
 
     def all_caps?(message)
-      message.match(/[A-Z]+/)
+      message.upcase
     end
 end
